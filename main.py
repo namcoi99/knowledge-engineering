@@ -14,10 +14,13 @@ print("\n--------------------------------------------------------")
 print("The distribution of difficulty (K) is as follows: {}".format(lst))       # Ex: [0.2, 0.3, 0.3, 0.2]
 questionDifficulty = QuestionDifficulty(lst)
 
-
 examTime = ExamTime(DECISION_TABLE, questionNumber, questionDifficulty)
+
+print("\nMembership function for Exam time:")
+print("Uc(z) = ", end='')
+for (k, v) in examTime.weights.items():
+    if v > 0: print("{}*{}".format(v, k), end=' + ')
 
 print("\n--------------------------------------------------------")
 print("Result: The appropriate test time is about {} minutes.".format(round(examTime.defuzzy(), 2)))
-
 
