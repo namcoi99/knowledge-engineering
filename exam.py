@@ -68,8 +68,6 @@ class TimeIntegral:
                         quad(self.__memberFunction, 15, 30, args=(TIME_SHORT, LOWER_BOUND, DENOMINATOR))[0],
             TIME_VERY_SHORT: quad(self.__memberFunction, 5, 20, args=(TIME_VERY_SHORT, None, DENOMINATOR))[0]
         }
-        # print(self.numerators)
-        # print(self.denominators)
 
     def __memberFunction(self, x, timeType, bound, valueType):
         y = 0
@@ -88,7 +86,6 @@ class TimeIntegral:
         if(timeType == TIME_LONG):
             y = x/30 - 3/2
         return y if valueType == DENOMINATOR else y*x
-
 
 class ExamTime:
 
