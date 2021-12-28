@@ -22,7 +22,7 @@ py main.py
 (Number of questions is **ranged from 10 to 60** corresponding to the intervals "very few", "few", "medium", "large")
    
 ```
-Please enter the number of questions: 60
+Please enter the number of questions[10-60]: 60
 
 Please enter the number of questions of the question level: 
 DIFFICULTY_HARD (Example: 20): 10
