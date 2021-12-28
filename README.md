@@ -15,7 +15,9 @@ pip install scipy
 py main.py
 ```
 ## How to use
-1. Required inputs are the number of questions in an exam and their distribution of difficulty: (Number of questions is **ranged from 10 to 60** corresponding to the intervals "very few", "few", "medium", "large")
+1. Required inputs are the number of questions in an exam and their distribution of difficulty: 
+
+(Number of questions is **ranged from 10 to 60** corresponding to the intervals "very few", "few", "medium", "large")
    
 ```
 Please enter the number of questions: 60
