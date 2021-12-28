@@ -1,7 +1,8 @@
 from constants import DECISION_TABLE, DIFFICULTY_HARD, DIFFICULTY_MEDIUM, DIFFICULTY_EASY, DIFFICULTY_VERY_EASY
 from exam import (ExamTime, QuestionDifficulty, QuestionNumber)
 
-q = int(input("Please enter the number of questions: "))
+q = 0
+while q < 10 or q > 60: q = int(input("Please enter the number of questions[10-60]: "))
 questionNumber = QuestionNumber(q)      # Ex: 50
 
 lst = []
