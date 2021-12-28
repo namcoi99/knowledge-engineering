@@ -1,4 +1,6 @@
-﻿# Knowledge Engineering
+﻿# Knowledge Engineering - IT4362
+ The project applies **Fuzzy Logic** to **determine the time to take the multiple-choice test**
+ 
 ## Prerequisites
 You need [python](https://www.python.org/downloads/) and [pip](https://pip.pypa.io/en/stable/installation/) installed to run this project.
 ## Setup
